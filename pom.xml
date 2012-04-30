@@ -45,7 +45,7 @@
          since it's a component implementation. -->
     <dependency>
       <groupId>org.xwiki.rendering</groupId>
-      <artifactId>xwiki-rendering-syntax-xwiki2</artifactId>
+      <artifactId>xwiki-rendering-syntax-xwiki20</artifactId>
       <version>${project.version}</version>
       <scope>runtime</scope>
     </dependency>
