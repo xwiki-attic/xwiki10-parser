@@ -30,6 +30,7 @@
   <artifactId>xwiki-rendering-syntax-xwiki10</artifactId>
   <name>XWiki Rendering - Syntax - XWiki 1.0</name>
   <description>XWiki Rendering - Syntax - XWiki 1.0</description>
+  <name>XWiki 1.0 syntax parser</name>
   <properties>
     <xwiki.jacoco.instructionRatio>0.90</xwiki.jacoco.instructionRatio>
   </properties>
