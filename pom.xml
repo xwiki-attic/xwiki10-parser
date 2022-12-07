@@ -25,11 +25,12 @@
   <parent>
     <groupId>org.xwiki.rendering</groupId>
     <artifactId>xwiki-rendering-syntaxes</artifactId>
-    <version>7.4</version>
+    <version>8.4</version>
   </parent>
   <artifactId>xwiki-rendering-syntax-xwiki10</artifactId>
   <description>XWiki Rendering - Syntax - XWiki 1.0</description>
   <name>XWiki 1.0 syntax parser</name>
+  <version>8.4-SNAPSHOT</version>
   <properties>
     <xwiki.jacoco.instructionRatio>0.90</xwiki.jacoco.instructionRatio>
   </properties>
@@ -42,12 +43,17 @@
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
     </dependency>
+    <dependency>
+      <groupId>org.xwiki.rendering</groupId>
+      <artifactId>xwiki-rendering-api</artifactId>
+      <version>8.4</version>
+    </dependency>
     <!-- Needed at runtime since the XWiki 1.0 parser converts to XWiki Syntax 2.0. It's only needed at runtime
          since it's a component implementation. -->
     <dependency>
       <groupId>org.xwiki.rendering</groupId>
       <artifactId>xwiki-rendering-syntax-xwiki20</artifactId>
-      <version>7.4</version>
+      <version>8.4</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -59,19 +65,19 @@
     <dependency>
       <groupId>org.xwiki.rendering</groupId>
       <artifactId>xwiki-rendering-test</artifactId>
-      <version>7.4</version>
+      <version>8.4</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.xwiki.rendering</groupId>
       <artifactId>xwiki-rendering-macro-html</artifactId>
-      <version>7.4</version>
+      <version>8.4</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.xwiki.rendering</groupId>
       <artifactId>xwiki-rendering-syntax-event</artifactId>
-      <version>7.4</version>
+      <version>8.4</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
@@ -95,16 +101,16 @@
   </build>
 
   <scm>
-    <connection>scm:git:git://github.com/xwiki-contrib/xwiki10-parser.git</connection>
-    <developerConnection>scm:git:git@github.com:xwiki-contrib/xwiki10-parser.git</developerConnection>
-    <url>https://github.com/xwiki-contrib/xwiki10-parser</url>
+    <connection>scm:git:git://github.com/xwiki-attic/xwiki10-parser.git</connection>
+    <developerConnection>scm:git:git@github.com:xwiki-attic/xwiki10-parser.git</developerConnection>
+    <url>https://github.com/xwiki-attic/xwiki10-parser</url>
     <tag>HEAD</tag>
   </scm>
   <distributionManagement>
     <repository>
       <id>xwiki-staging</id>
       <name>XWiki Staging Repository</name>
-      <url>http://nexus.xwiki.org/nexus/service/local/staging/deploy/maven2/</url>
+      <url>https://nexus.xwiki.org/nexus/service/local/staging/deploy/maven2/</url>
     </repository>
   </distributionManagement>
 </project>
