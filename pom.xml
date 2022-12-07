@@ -30,7 +30,7 @@
   <artifactId>xwiki-rendering-syntax-xwiki10</artifactId>
   <description>XWiki Rendering - Syntax - XWiki 1.0</description>
   <name>XWiki 1.0 syntax parser</name>
-  <version>8.4</version>
+  <version>8.4.1-SNAPSHOT</version>
   <properties>
     <xwiki.jacoco.instructionRatio>0.90</xwiki.jacoco.instructionRatio>
   </properties>
@@ -104,7 +104,7 @@
     <connection>scm:git:git://github.com/xwiki-attic/xwiki10-parser.git</connection>
     <developerConnection>scm:git:git@github.com:xwiki-attic/xwiki10-parser.git</developerConnection>
     <url>https://github.com/xwiki-attic/xwiki10-parser</url>
-    <tag>xwiki-rendering-syntax-xwiki10-8.4</tag>
+    <tag>HEAD</tag>
   </scm>
   <distributionManagement>
     <repository>
